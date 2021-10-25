@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="springerNature.SND.helper.listener.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="SearchTest(failed)">
+    <classes>
+      <class name="springerNature.SND.testScripts.SearchTest">
+        <methods>
+          <include name="testLoginToApplicationAndSearch"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- springerNature.SND.testScripts.SearchTest -->
+    </classes>
+  </test> <!-- SearchTest(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

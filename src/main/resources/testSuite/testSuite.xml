@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite">
+    <listeners>
+      <listener class-name="springerNature.SND.helper.listener.ExtentListener"></listener>
+    </listeners>
+    <test name="SearchHappyFlow">
+        <classes>
+            <class name="springerNature.SND.testScripts.SearchHappyFlow"></class>
+        </classes>
+    </test>
+    <test name="SearchResultsPageValidation">
+        <classes>
+            <class name="springerNature.SND.testScripts.SearchResultsPageValidation"></class>
+        </classes>
+    </test>
+    <test name="SortSearchResults">
+        <classes>
+            <class name="springerNature.SND.testScripts.SortSearchResults"></class>
+        </classes>
+    </test>
+    <test name="VerifyDatePublished">
+        <classes>
+            <class name="springerNature.SND.testScripts.VerifyDatePublished"></class>
+        </classes>
+    </test>
+</suite>
+
